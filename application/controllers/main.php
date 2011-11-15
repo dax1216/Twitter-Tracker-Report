@@ -74,6 +74,7 @@ class Main extends CI_Controller {
     }
     
     public function extract_data() {
+        // Limit extracting of data from APIs to an hour only
         set_time_limit(60*60);
 
         $report = $this->report_model->get_incomplete_reports();
