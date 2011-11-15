@@ -1,0 +1,91 @@
+body {
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.clear {
+    clear: both;
+}
+
+.aligncenter {
+    text-align: center;
+}
+
+#wrapper {
+    width: 1000px;
+    margin: auto;
+    background-color: #fff;
+}
+
+#header {
+    background-image: url('../images/headerbg.jpg');
+    background-repeat: repeat-x;
+    width: 960px;
+    height: 130px;
+    padding: 0 20px;
+    float: left;
+    line-height: 130px;
+}
+
+#content {
+    width: 960px;
+    padding: 20px;
+    float: left;
+    background-color: #fff;
+    height: 350px;
+    min-height: 350px;
+    height: auto !important;
+}
+
+#footer {
+    width: 960px;
+    padding: 20px;
+    color: #ccc;
+    float: left;
+    font-size: 12px;
+}
+
+#content h1 { color: #E13300; font-size: 24px;}
+
+.form_div {
+    margin-top: 20px;
+}
+
+.success {
+    border:1px solid #009933;
+    width: 95%;    
+    background: #ACE97C;
+    padding:5px;
+    color: #009933;
+    margin-bottom:10px;
+    font-size: 12px;
+}
+
+.error {
+    border:1px solid #990000;
+    width: 95%;
+    background: #ffcccc;
+    padding:5px;
+    color: #990000;
+    margin-bottom:10px;
+    font-size: 12px;
+}
+
+table thead th {
+    background-color: #666;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    border: 1px solid #fff;
+}
+
+td {
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+}
